@@ -1,0 +1,45 @@
+body{
+    background-image: url('alarm1.jpg');
+    background-size: cover;
+}
+.text-center{
+    margin-top: 5px;
+}
+input{
+    height: 130px !important;
+    font-size: 80px !important;
+    width: 350px;
+}
+::placeholder{
+    margin-left: 20px !important;
+}
+button{
+    font-size: 60px !important;
+    padding: 10px 10px 10px 10px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: 600 !important;
+}
+
+@media screen and (max-width: 864px) {
+    body{
+        background-image: url(alarm1.jpg);
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        height: 703px;
+    }
+    .text-center{
+        margin-top: 10%;
+    }
+    #Hours{
+        width: 80% !important;
+        font-size: 80px !important;
+    }
+    button{
+        font-size: 40px !important;
+        padding: 10px 10px 10px 10px !important;
+        font-family: 'Times New Roman', Times, serif !important;
+    }
+    .mid{
+        margin-left: 50px !important;
+    }
+}
